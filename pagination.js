@@ -1,8 +1,7 @@
 export default{
     props:['pages', 'getProduct'], //使用props將模組化內容傳遞，並自訂名稱
     template:`<nav aria-label="Page navigation example">
-   {{pages}}
-   {{getProduct}}
+   
     <ul class="pagination">
       <li class="page-item" :class="{ disabled: !pages.has_pre}">
         <a class="page-link" href="#" aria-label="Previous">
